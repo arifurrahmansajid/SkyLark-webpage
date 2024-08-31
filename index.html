@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY Lark</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/d8cfb7604d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="h-container">
+            <div class="container">
+                <nav>
+                    <ul class="mobileMenu">
+                        <li><a class="logo" href="#">SKYLARK</a></li>
+                        <li><i onclick="openMenu()" id="menu" class="fa-solid fa-bars"></i></li>
+                    </ul>
+                    <ul class="nav">
+                        <li><i onclick="closeMenu()" id="menu" class="fa-solid fa-xmark"></i></li>
+                        <li><a href="#">WHO WE ARE</a></li>
+                        <li><a href="#">WHAT WE DO</a></li>
+                        <li><a href="#">SECTORS</a></li>
+                        <li><a href="#">TRANSACTIONS</a></li>
+                        <li><a class="logo display" href="#">SKYLARK.</a></li>
+                        <li><a href="#">OUR PEOPLE</a></li>
+                        <li><a href="#">GLOBAL REACH</a></li>
+                        <li><a href="#">NEWSLETTER</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="container">
+                <section class="about-section">
+                    <div class="about-card-view">
+                        <h4>About us</h4>
+                        <p class="title">Skylark is a dolor sit amet consectetur. Sem at pellentesque in tellus. Eu nibh
+                            dolor erat egestas. Malesuada.</p>
+                        <p class="title-text">Lorem ipsum dolor sit amet consectetur. In enim aliquam porttitor. Condimentum
+                            amet consectetur egestas vel libero varius. Feugiat magna dolor odio penatibus consequat est
+                            auctor. Ligula purus faucibus integer eget risus. Fermentum aenean gravida netus et quis quis.
+                            Elit mattis quisque sed.Lorem ipsum dolor sit amet consectetur. In enim aliquam porttitor.
+                            Condimentum amet consectetur egestas vel libero varius. Feugiat magna dolor odio penatibus
+                            consequat est auctor. Ligula purus faucibus integer eget risus. Fermentum aenean gravida netus
+                            et quis quis. Elit mattis quisque sed.
+                        </p>
+                        <button onclick="seeMore()" class="button-groups">
+                            <img class="learn-more-logo" src="assets/images/Group 1002.png" alt="img">
+                            <p class="see-more-text">LEARN MORE</p>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section class="about-section-navigators">
+                    <div id="about-us" class="about-section-navigator">
+                        <h2>ABOUT US</h2>
+                        <hr>
+                    </div>
+                    <div onclick="showContentOf('Our Team')" id="our-team" class="about-section-navigator">
+                        <h2>OUR TEAM</h2>
+                        <hr>
+                    </div>
+                    <div id="where-we-are" class="about-section-navigator">
+                        <h2>WHERE WE ARE</h2>
+                        <hr>
+                    </div>
+                    <div id="contact-us" class="about-section-navigator">
+                        <h2>CONTACT US</h2>
+                        <hr>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-1">
+            <div class="section-1-content">
+                <img src="assets/images/box.png" alt="img">
+                <h2>Design</h2>
+                <ul>
+                    <li>Branding</li>
+                    <li>Marketing Collateral</li>
+                    <li>Presentation Design</li>
+                    <li>UX/UI Design</li>
+                </ul>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="section-1-content">
+                <img src="assets/images/camera.png" alt="img">
+                <h2>Website Development</h2>
+                <ul>
+                    <li>Wordpress</li>
+                    <li>Shopify</li>
+                    <li>Headless</li>
+                </ul>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="section-1-content">
+                <img src="assets/images/mobile.png" alt="img">
+                <h2>App Development</h2>
+                <ul>
+                    <li>Web Apps</li>
+                    <li>Mobile Apps</li>
+                </ul>
+                <button>LEARN MORE</button>
+            </div>
+        </section>
+        <section class="section-2 container">
+            <div class="section-2-text">
+                <h1>Transactions</h1>
+                <button>View ALL Transactions</button>
+            </div>
+            <div class="transections">
+                <img class="transection" src="assets/images/Group 3 1.png" alt="img">
+                <img class="transection" src="assets/images/Group 5 1.png" alt="img">
+                <img class="transection" src="assets/images/Group 6 1.png" alt="img">
+                <img class="transection" src="assets/images/Group 6 1.png" alt="img">
+                <img class="transection" src="assets/images/Group 6 1.png" alt="img">
+                <img class="transection" src="assets/images/Group 6 1.png" alt="img">
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="section-3-texts">
+                <h1>Neque tortor porttitor ornare ultrices. <br> Risus eget vel maecenas </h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Sollicitudin ac egestas rutrum eget urna. Risus eget congue duis diam. Etiam nisl quisque ut sed ac. Neque tortor porttitor ornare ultrices. Risus eget vel maecenas aliquam. Amet euismod purus turpis velit. Eget sem integer urna odio.</p>
+                <div class="button-links">
+                    <button>JOIN THE TEAM</button>
+                    <button>MEET THE TEAM</button>
+                </div>
+            </div>
+            <div class="section-3-image">
+                <img src="assets/images/image.png" alt="img">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-section-1">
+            <ul>
+                <li>ABOUT</li>
+                <li>TEAM</li>
+                <li>HOW CAN HELP</li>
+                <li>SECTOR EXPERTISE</li>
+                <li>DEALS</li>
+                <li>NEWS & INSIGHTS</li>
+                <li>CAREERS</li>
+                <li>CONTACT US</li>
+                <li>SUBSCRIBE TO OUR NEWS</li>
+            </ul>
+        </section>
+        <section class="footer-section-2">
+            <ul>
+                <li>© Capitalmind 2022</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>A Website by Skylark Creative</li>
+            </ul>
+            <ul>
+                <li><img class="linkedin-logo" src="assets/images/icons8-linkedin-2-48.png" alt="img"></li>
+                <li>Follow Us on Linkedin</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
